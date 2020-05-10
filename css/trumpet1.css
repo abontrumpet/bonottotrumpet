@@ -566,6 +566,16 @@ li a:hover::before {
   margin-right: 100px;
   
 }
+.teaching-par-last {
+  font-family:'Montserrat', sans-serif;
+  font-weight: 300;
+  padding-bottom: 10px;
+  word-spacing: 1.2;
+  font-size: 14px;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-bottom: 30px;
+}
 .teaching-phil {
   font-family: 'Monoton', cursive;
   font-weight: 50;
@@ -621,7 +631,7 @@ li a:hover::before {
 }
 .contact-body {
   font-family: 'Roboto', sans-serif;
-  font-weight: 200;
+  font-weight: 300;
   font-size: 2vw;
   text-align: center;
   color: #444;
@@ -629,7 +639,7 @@ li a:hover::before {
 }
 .contact-last {
   font-family: 'Roboto', sans-serif;
-  font-weight: 200;
+  font-weight: 300;
   font-size: 2vw;
   text-align: center;
   color: #444;
@@ -639,11 +649,19 @@ li a:hover::before {
 @media (max-width: 480px) {
   .logo {
     font-size: 19px;
-    padding-top: 17px;
+    padding-top: 18px;
     padding-left: -20px;}
-  li {margin-left: 10px;}
+  li {margin-left: 20px;}
   .teaching-par {
     margin-left: 60px;
     margin-right: 60px;
   }
   }
+  .video-mobi {
+    display: none;
+  }
+  @media (max-width: 480px) {
+    .video-desk {display: none;}
+    .video-mobi {display: block;}
+  }
+  
