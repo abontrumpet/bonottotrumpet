@@ -16,8 +16,7 @@ body{
     display: flex;
     flex-direction: column;
     margin: 40px 0px 0px 0px;
-    
-    
+    max-width: 100%;
 }
 p {
     font-family:'Montserrat', sans-serif;
@@ -209,7 +208,14 @@ li a:hover::before {
     max-height: 50%;
     background-image: url('../images/photo-output.JPG');
 }
-
+@media (max-width: 480px) {
+  .top-container {
+    display: block;
+  }
+  .top-photo {
+  max-width: 100%;
+  max-height: auto;}
+}
 
 .left-photo {
      max-width: 100%;
@@ -633,5 +639,11 @@ li a:hover::before {
 @media (max-width: 480px) {
   .logo {
     font-size: 19px;
-    padding-top: 17px; }
+    padding-top: 17px;
+    padding-left: -20px;}
+  li {margin-left: 10px;}
+  .teaching-par {
+    margin-left: 60px;
+    margin-right: 60px;
+  }
   }
