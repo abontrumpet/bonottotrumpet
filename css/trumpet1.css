@@ -656,9 +656,17 @@ li a:hover::before {
     margin-left: 60px;
     margin-right: 60px;
   }
+  .teaching-par-last {
+    margin-left: 60px;
+    margin-right: 60px;
+  } 
   }
   .video-mobi {
     display: none;
+    padding-bottom: 15px;
+  }
+  .video-desk {
+    padding: 20px;
   }
   @media (max-width: 480px) {
     .video-desk {display: none;}
