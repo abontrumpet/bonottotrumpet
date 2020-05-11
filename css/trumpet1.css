@@ -8,6 +8,8 @@
 body{
     background-color: #f2f2f2;
     width: 100%;
+    margin: 0;
+    padding: 0;
     
 }
 
@@ -491,6 +493,9 @@ li a:hover::before {
     margin-left: 20px;
     margin-right: 20px;
  }
+ .bio-header {
+  font-family: 'Arvo', serif;
+ }
   
  @media (max-width: 900px) {
   .biotop-photo {
@@ -534,7 +539,7 @@ li a:hover::before {
   }
   
 .bio-body {
-  background-color: #EEE2DC;
+  background-color: #f2f2f2;
 }
 
   
