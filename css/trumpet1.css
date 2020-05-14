@@ -42,11 +42,12 @@ header {
     position: sticky;
     position: -webkit-sticky;
     top: 0;
-    background-color: #f2f2f2;
+    background-color: white;
     padding-top: 20px;
     padding-bottom: 15px;
     padding-left: 0px;
     padding-right: 30px;
+    z-index: 999;
     
 }
 header::after {
@@ -86,7 +87,7 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: #f2f2f2;
+    background-color: white;
   }
   
   li {
@@ -110,7 +111,7 @@ ul {
   }
   
   li a:hover, .dropdown:hover .dropbtn {
-    background-color: #f2f2f2;
+    background-color: white;
   }
   li a::before {
     content: '';
@@ -487,14 +488,15 @@ li a:hover::before {
   .biotop-photo {
     
     align-self: flex-start;
-    width: 46%;
+    width: 30%;
     object-fit: fill;
-    margin-top: 40px;
+    margin-top: 45px;
     margin-left: 20px;
     margin-right: 20px;
  }
  .bio-header {
   font-family: 'Arvo', serif;
+  text-align: left;
  }
   
  @media (max-width: 900px) {
@@ -513,7 +515,10 @@ li a:hover::before {
   color: black;
   font-family: 'Montserrat', sans-serif;
  }
-  .bio-text {
+.bio-body {
+  background-color: #f2f2f2;
+}
+ .bio-text {
    
     flex: 1 1 auto;
     width: 100%;
@@ -536,19 +541,37 @@ li a:hover::before {
     line-height: 1.5;
     text-align: left;
     font-size: 16px;
+    color: black;
   }
-  
-.bio-body {
-  background-color: #f2f2f2;
+
+.teaching-body { 
+    
+  background: url(../images/HJS7472FINAL.jpg) no-repeat left bottom fixed; 
+    -webkit-background-size: fill;
+    -moz-background-size: fill;
+    -o-background-size: fill;
+    background-size: fill;
+    background-color: black;
 }
 
+.teaching-photo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-height: auto;
+  max-width: 40%;
+  align-items: center:
+}
   
 .teaching-box {
   display: block;
   overflow: visible;
-  margin-left: 0px;
-  margin-right: 0px;
-  width: 100%;
+  width: 70%;
+  background-color: #444;
+  opacity: 83%;
+  margin-left: 14vw;
+  position: relative;
+  
   
 }
 .teaching-tit {
@@ -557,6 +580,7 @@ li a:hover::before {
   padding-bottom: 10px;
   padding-top: 45px;
   margin-left: 60px;
+  color: white;
   
   
 
@@ -569,6 +593,7 @@ li a:hover::before {
   font-size: 14px;
   margin-left: 100px;
   margin-right: 100px;
+  color: white;
   
 }
 .teaching-par-last {
@@ -580,9 +605,10 @@ li a:hover::before {
   margin-left: 100px;
   margin-right: 100px;
   padding-bottom: 30px;
+  color: white;
 }
 .teaching-phil {
-  font-family: 'Monoton', cursive;
+  font-family: 'Monoton', sans-serif;
   font-weight: 50;
   margin-top: 60px;
   font-size: 35px;
