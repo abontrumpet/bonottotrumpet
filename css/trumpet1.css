@@ -5,7 +5,7 @@
   font-family: 'Josefin Sans', sans-serif;
 }
 /*styling of the page */
-body{
+body {
     background-color: #f2f2f2;
     width: 100%;
     margin: 0;
@@ -47,7 +47,7 @@ header {
     padding-bottom: 15px;
     padding-left: 0px;
     padding-right: 30px;
-    z-index: 999;
+    z-index: 2;
     
 }
 header::after {
@@ -121,7 +121,7 @@ ul {
  
   li a:hover, .dropdown:hover .dropbtn {
     background-color: white;
-    color: rgb(184, 182, 182)
+    color: rgb(184, 182, 182);
   }
   li a::before {
     content: '';
@@ -226,7 +226,8 @@ li a:hover::before {
   }
   .top-photo {
   max-width: 100%;
-  max-height: auto;}
+  max-height: auto;
+  }
 }
 
 .left-photo {
@@ -284,7 +285,7 @@ li a:hover::before {
     }
   }
 .media-page {
-      background-color: black;
+      background-color: #f2f2f2;
   }
 .sounds-title {
   font-family: 'Montserrat', sans-serif;
@@ -311,7 +312,7 @@ li a:hover::before {
   .modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
+    z-index: 999; /* Sit on top */
     padding-top: 100px; /* Location of the box */
     left: 0;
     top: 0;
@@ -568,6 +569,7 @@ li a:hover::before {
     -o-background-size: fill;
     background-size: fill;
     background-color: black;
+    padding-bottom: 50px;
 }
 
 .teaching-photo {
@@ -576,7 +578,7 @@ li a:hover::before {
   margin-right: auto;
   max-height: auto;
   max-width: 40%;
-  align-items: center:
+  align-items: center;
 }
   
 .teaching-box {
