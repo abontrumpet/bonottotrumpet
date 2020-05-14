@@ -488,7 +488,7 @@ li a:hover::before {
   .biotop-photo {
     
     align-self: flex-start;
-    width: 30%;
+    width: 46%;
     object-fit: fill;
     margin-top: 45px;
     margin-left: 20px;
@@ -667,6 +667,7 @@ li a:hover::before {
   text-align: center;
   color: #444;
   letter-spacing: 4px;
+  text-decoration: none;
 }
 .contact-last {
   font-family: 'Roboto', sans-serif;
@@ -676,6 +677,7 @@ li a:hover::before {
   color: #444;
   margin-bottom: 50px;
   letter-spacing: 5px;
+  text-decoration: none;
 }
 @media (max-width: 480px) {
   .logo {
