@@ -118,7 +118,7 @@ ul {
     display: block;
     height: 5px;
     width: 0%;
-    background-color: #444;
+    background-color: #777;
     position: absolute;
     top: 0;
     transition: all ease-in-out 250ms;
@@ -200,15 +200,14 @@ li a:hover::before {
 /* This is the top photo on the landing page */ 
 .top-container {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
     background-color: black;
     padding: 40px;
- 
 }
 .top-photo {
-    max-width: 50%;
-    max-height: 50%;
+    max-width: 93%;
+    max-height: 100%;
     background-image: url('../images/photo-output.JPG');
 }
 @media (max-width: 480px) {
@@ -277,10 +276,14 @@ li a:hover::before {
 .media-page {
       background-color: black;
   }
-.sound-page {
+.sounds-title {
+  font-family: 'Montserrat', sans-serif;
+  color: #168bc2;
+}
+  .sound-page {
   background-color: #f2f2f2;
 }
-.media-text {
+.sounds-text {
   text-align: center;
   padding-bottom: 30px;
 }
@@ -495,8 +498,10 @@ li a:hover::before {
     margin-right: 20px;
  }
  .bio-header {
-  font-family: 'Arvo', serif;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 00;
   text-align: left;
+  color: #168bc2;
  }
   
  @media (max-width: 900px) {
@@ -512,8 +517,9 @@ li a:hover::before {
   }
  }
  .media-title {
-  color: black;
+  color: #e9e944;
   font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
  }
 .bio-body {
   background-color: #f2f2f2;
@@ -608,8 +614,8 @@ li a:hover::before {
   color: white;
 }
 .teaching-phil {
-  font-family: 'Monoton', sans-serif;
-  font-weight: 50;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
   margin-top: 60px;
   font-size: 35px;
   color: #fb758d;
