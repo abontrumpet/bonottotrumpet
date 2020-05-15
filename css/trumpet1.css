@@ -590,9 +590,6 @@ li a:hover::before {
   opacity: 83%;
   margin-left: 14vw;
   position: relative;
-  
-  
-  
 }
 .teaching-tit {
   font-family:'Montserrat', sans-serif;
@@ -720,7 +717,6 @@ li a:hover::before {
     margin-left: 30px;
     margin-right: 30px;
   } 
-  }
   .video-mobi {
     display: none;
     padding-bottom: 15px;
@@ -728,6 +724,26 @@ li a:hover::before {
   .video-desk {
     padding: 20px;
   }
+  .teaching-box {
+    display: block;
+    overflow: visible;
+    width: 90%;
+    background-color: #444;
+    opacity: 83%;
+    margin-left: 5vw;
+    position: relative;
+}
+.teaching-body { 
+    
+  background: url(../images/media/imgthreebell.jpg) no-repeat center 25% fixed; 
+    -webkit-background-size: 96%;
+    -moz-background-size: 96%;
+    -o-background-size: 96%;
+    background-size: 96%;
+    background-color: #f2f2f2;
+    padding-bottom: 50px;
+}
+}
   @media (max-width: 480px) {
     .video-desk {display: none;}
     .video-mobi {display: block;}
