@@ -503,7 +503,7 @@ li a:hover::before {
   .biotop-photo {
     
     align-self: flex-start;
-    width: 46%;
+    width: 38%;
     object-fit: fill;
     margin-top: 45px;
     margin-left: 20px;
@@ -519,11 +519,11 @@ li a:hover::before {
  @media (max-width: 900px) {
   .biotop-photo {
     align-self: flex-start;
-    width: 100%;
+    width: 80%;
     height: 80%;
     object-fit: fill;
     margin-top: 50px;
-    margin-left: 15px;
+    margin-left: 35px;
     margin-right: 25px;
 
   }
@@ -743,12 +743,43 @@ li a:hover::before {
   display: none;
   padding-bottom: 15px;
 }
+
 .video-desk {
   padding: 20px;
 }
-
-
+.video-caption {
+  font-family: 'Montserrat', sans-serif;
+  display: inline-block;
+  width: 30%;
+  height: 30px;
+}
+.youtube-vids {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-items: center;
+}
+.video-box {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr .1fr 1fr .1fr 1fr .1fr;
+  justify-items: center;
+}
+@media (max-width: 769px) {
+  .youtube-vids {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+  }
+}
   @media (max-width: 480px) {
+    .youtube-vids {
+      display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    }
     .video-desk {display: none;}
     .video-mobi {display: block;}
   }
